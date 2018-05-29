@@ -27,8 +27,6 @@
           },
           "summary_bukku": {
             "type": "string",
-            "format": "email",
-            "faker": "internet.email"
           },
           "harga": {
             "type": "integer"
