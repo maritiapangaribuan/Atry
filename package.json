@@ -1,54 +1,46 @@
 {
-  "type": "array",
-  "minItems":3,
-  "items": {
-    "title": "Book",
-    "description": "A book from GVM Library",
-    "type": "object",
-    "properties": {
-      "book": {
+    "type": "array",
+    "minItems": 3,
+    "items": {
+        "title": "Book",
+        "description": "A book from GVM Library",
         "type": "object",
         "properties": {
-          "id": {
-            "description": "The unique identifier for a product",
-            "type": "integer"
-          },
-          "judul": {
-            "type": "string"
-          },
-          "penerbit": {
-            "type": "string"
-          },
-          "nama_pengarang": {
-            "type": "string"
-          },
-          "tahun_terbit": {
-            "type": "integer"
-          },
-          "summary_bukku": {
-            "type": "string",
-          },
-          "harga": {
-            "type": "integer"
-          },
-          "kategori": {
-            "type": "string"
-          }
+            "id": {
+                "description": "The unique identifier for a product",
+                "type": "integer"
+            },
+            "judul": {
+                "type": "string"
+            },
+            "penerbit": {
+                "type": "string"
+            },
+            "nama_pengarang": {
+                "type": "string"
+            },
+            "tahun_terbit": {
+                "type": "integer"
+            },
+            "summary_bukku": {
+                "type": "string",
+            },
+            "harga": {
+                "type": "integer"
+            },
+            "kategori": {
+                "type": "string"
+            }
         },
         "required": [
-          "id",
-          "judul",
-          "penerbit",
-          "nama_pengarang",
-          "tahun_terbit",
-          "summary_buku",
-          "harga",
-          "kategori"
+            "id",
+            "judul",
+            "penerbit",
+            "nama_pengarang",
+            "tahun_terbit",
+            "summary_buku",
+            "harga",
+            "kategori"
         ]
-      }
-    },
-    "required": [
-      "book"
-    ]
-  }
+    }
 }
